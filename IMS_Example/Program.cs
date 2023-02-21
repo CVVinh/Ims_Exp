@@ -42,22 +42,20 @@ builder.Services.AddControllersWithViews().AddNewtonsoftJson(opts => opts.Serial
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration["DbContextSetting:ConnectionString"], b => b.MigrationsAssembly("BE"));
 });
 
 
-// configure cores
-builder.Services.AddCors(opts =>
+builder.Services.AddCors(otps =>
 {
-    opts.AddPolicy("AppCorsPolicy", policy =>
+    otps.AddPolicy("AppCorsPolicy", policy =>
     {
         policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
 });
-
-
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
@@ -70,7 +68,6 @@ builder.Services.AddSwaggerGen(options =>
 
     options.OperationFilter<SecurityRequirementsOperationFilter>();
 });
-
 builder.Services.AddAutoMapperCollection();
 
 // register instance
@@ -78,7 +75,7 @@ builder.Services.AddAutoMapperCollection();
 builder.Services.Configure<JwtSetting>(builder.Configuration.GetSection("JwtSetting"));
 
 // add instance
-builder.Services.AddScoped<JwtHeader>();
+builder.Services.AddScoped<JwtHelper>();
 builder.Services.AddScoped<EncryptionHelper>();
 builder.Services.AddScoped<TokenServices>();
 builder.Services.AddScoped<TokenHelper>();
@@ -119,11 +116,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AppCorsPolicy");
 
-//app.UseStaticFiles();
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

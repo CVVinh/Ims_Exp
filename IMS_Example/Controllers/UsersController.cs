@@ -2,6 +2,7 @@
 using IMS_Example.Data.DTOs.UserDTO;
 using IMS_Example.Data.Models;
 using IMS_Example.Response;
+using IMS_Example.Services.PaginationServices;
 using IMS_Example.Services.TokenServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -16,11 +17,13 @@ namespace IMS_Example.Controllers
     {
         private readonly AppDbContext _context;
         private readonly TokenServices _tokenService;
+        private readonly IPaginationServices<Users> _passageServices;
 
-        public UsersController(AppDbContext context, TokenServices tokenService)
+        public UsersController(AppDbContext context, TokenServices tokenService, IPaginationServices<Users> passageServices)
         {
-            _context = context;
-            _tokenService = tokenService;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _tokenService = tokenService ?? throw new ArgumentNullException(nameof(tokenService)); ;
+            _passageServices = passageServices;
         }
 
         [HttpGet("getAll")]
