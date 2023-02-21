@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "etyxrKMUQek00fKWmyWJIsriedLMPEUOr8a5UbvqjAx0aiwjqLu92ot9H/CZslXibbCARAmrsiklt4uC7P4DOw==",
+  "dgSpecHash": "qfCMYI3krkc6UkuFK66+WLIhoP2HAV7PUuqhaJk2XFLXAKmXmaT/5wC46PqZNY+ThpdWsAbJadKqJoJSWW0n4w==",
   "success": true,
-  "projectFilePath": "D:\\ongit\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+  "projectFilePath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

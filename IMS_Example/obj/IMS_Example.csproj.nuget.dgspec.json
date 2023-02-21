@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ongit\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {}
+    "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {}
   },
   "projects": {
-    "D:\\ongit\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {
+    "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ongit\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+        "projectUniqueName": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
         "projectName": "IMS_Example",
-        "projectPath": "D:\\ongit\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+        "projectPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ongit\\Ims_Exp\\IMS_Example\\obj\\",
+        "outputPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
