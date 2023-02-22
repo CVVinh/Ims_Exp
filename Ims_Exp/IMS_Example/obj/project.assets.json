@@ -11569,19 +11569,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cao Van Vinh\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+      "projectUniqueName": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
       "projectName": "IMS_Example",
-      "projectPath": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
-      "packagesPath": "C:\\Users\\Cao Van Vinh\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\obj\\",
+      "projectPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cao Van Vinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11730,5 +11730,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

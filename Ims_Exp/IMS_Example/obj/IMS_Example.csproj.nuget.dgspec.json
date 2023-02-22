@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {}
+    "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {}
   },
   "projects": {
-    "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {
+    "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+        "projectUniqueName": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
         "projectName": "IMS_Example",
-        "projectPath": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
-        "packagesPath": "C:\\Users\\Cao Van Vinh\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\IMS_Example\\Ims_Exp\\IMS_Example\\obj\\",
+        "projectPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\IMS_Example.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ongit\\Ims_Exp\\Ims_Exp\\IMS_Example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cao Van Vinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
